@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
+  - '&kpls LEFT_COMMAND'
   - LEFT ALT
   - LEFT WIN
   - {t: TAB, h: '1'}
@@ -78,7 +78,7 @@ layers:
   - '3'
   - +
   - ESCAPE
-  - LEFT CONTROL
+  - '&kpls LEFT_COMMAND'
   - LEFT GUI
   - {type: held}
   - {t: ▽, type: trans}
@@ -147,9 +147,9 @@ layers:
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT
+  - Ctl+LEFT
   - Sft+UP
-  - Ctl+Gui+RIGHT
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - SPACE
   - SPACE
@@ -164,7 +164,7 @@ layers:
   - Sft+RIGHT
   - Sft+END
   - ESC
-  - LCTRL
+  - '&kpls LEFT_COMMAND'
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
