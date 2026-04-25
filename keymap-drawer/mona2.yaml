@@ -44,23 +44,23 @@ layers:
   - ENTER
   - {t: CAPSLOCK, h: '2'}
   '1':
-  - '`'
+  - '&kpls GRAVE'
   - Sft+1
-  - Sft+2
-  - Sft+`
-  - '|'
+  - '&kpls AT_SIGN'
+  - '&kpls TILDE'
+  - '&kpls PIPE'
   - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - Sft+-
-  - Sft+9
-  - Sft+0
-  - '['
-  - ']'
-  - \
-  - Sft+'
-  - Sft+;
+  - '&kpls UNDERSCORE'
+  - '&kpls LEFT_PARENTHESIS'
+  - '&kpls RIGHT_PARENTHESIS'
+  - '&kpls LEFT_BRACKET'
+  - '&kpls RIGHT_BRACKET'
+  - '&kpls BACKSLASH'
+  - '&kpls DOUBLE_QUOTES'
+  - '&kpls COLON'
   - '4'
   - '5'
   - '6'
@@ -71,12 +71,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
+  - '&kpls SINGLE_QUOTE'
   - ;
   - '1'
   - '2'
   - '3'
-  - +
+  - '&kpls PLUS'
   - ESCAPE
   - '&kpls LEFT_COMMAND'
   - LEFT GUI
@@ -141,9 +141,9 @@ layers:
   - {t: ▽, type: trans}
   - Alt+Ctl+DELETE
   - SPACE
-  - '&kpls LG(LS(TAB))'
-  - {t: LEFT ALT, type: held}
-  - '&kpls LG(TAB)'
+  - Sft+TAB
+  - {t: '&kpls LGUI', type: held}
+  - TAB
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
