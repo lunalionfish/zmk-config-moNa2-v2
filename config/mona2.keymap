@@ -90,9 +90,9 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(GRAVE)  &kp PIPE                                      &trans             &kp N7        &kp N8        &kp N9        &kp LS(MINUS)
-&kp LS(N9)  &kp LS(N0)        &kp LBKT          &kp RBKT       &kp BACKSLASH                    &kp LS(SQT)  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kpls EQUAL
-&trans      &trans            &trans            &trans         &trans         &trans            &kp SQT      &kp SEMICOLON      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&kpls GRAVE &kp LS(NUMBER_1)  &kpls AT_SIGN    &kpls TILDE &kpls PIPE                                      &trans             &kp N7        &kp N8        &kp N9        &kpls UNDERSCORE
+&kpls LEFT_PARENTHESIS  &kpls RIGHT_PARENTHESIS     &kpls LEFT_BRACKET &kpls RIGHT_BRACKET &kpls BACKSLASH  &kpls DOUBLE_QUOTES &kpls COLON        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kpls EQUAL
+&trans      &trans            &trans            &trans         &trans         &trans            &kpls SINGLE_QUOTE  &kp SEMICOLON      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kpls PLUS
 &kp ESCAPE  &kpls LEFT_COMMAND  &kp LEFT_GUI      &trans         &trans         &kp LEFT_SHIFT    &kp DELETE   &kp N0                                                       &trans
             >;
 
@@ -102,7 +102,7 @@
         layer_2 {
             bindings = <
 &trans                      &kp F2            &kp F4           &kp F5           &kp F12                                          &trans    &trans     &trans    &trans     &trans
-&kpls LEFT_COMMAND          &kp LALT          &kp LS(LCTRL)    &kp KP_NUMBER_6  &kp ASTERISK                             &trans  &mkp MB4  &mkp LCLK  &kp UP    &mkp RCLK  &kp PIPE
+&kpls LEFT_COMMAND          &kp LALT          &kp LS(LCTRL)    &kp KP_NUMBER_6  &kp ASTERISK                             &trans  &mkp MB4  &mkp LCLK  &kp UP    &mkp RCLK  &kpls PIPE
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1   &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &trans                     &trans  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END
 &kp ESC                     &kpls LEFT_COMMAND  &kp LEFT_GUI     &trans           &trans        &kp LEFT_SHIFT             &trans  &trans                                    &trans
             >;
@@ -113,7 +113,7 @@
         layer_3 {
             bindings = <
 &kp SPACE  &kp LC(PAGE_UP)  &kp LG(TAB)         &kp LC(PAGE_DOWN)  &trans                            &trans        &trans            &trans        &trans             &kp LA(LC(DELETE))
-&kp SPACE  &kpls LG(LS(TAB)) &kp LEFT_ALT       &kpls LG(TAB)      &kp SPACE               &trans    &trans        &kp LC(LEFT)  &kp LS(UP)    &kp LC(RIGHT)      &trans
+&kp SPACE  &kp LS(TAB)      &kpls LGUI          &kp TAB            &kp SPACE               &trans    &trans        &kp LC(LEFT)  &kp LS(UP)    &kp LC(RIGHT)      &trans
 &kp SPACE  &kp SPACE        &kp LG(DOWN_ARROW)  &kp SPACE          &kp SPACE  &trans       &trans    &kp LS(HOME)  &kp LS(LEFT)      &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)
 &kp ESC    &kpls LEFT_COMMAND &kp LGUI            &trans             &trans     &kp LSHFT    &kp BSPC  &kp LA(RET)                                                      &trans
             >;
