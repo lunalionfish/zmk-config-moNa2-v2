@@ -64,7 +64,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '='
+  - '&kpls EQUAL'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - {type: held}
   - '&bootloader'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&tog_ls'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
