@@ -113,7 +113,7 @@
         layer_3 {
             bindings = <
 &kp SPACE  &kp LC(PAGE_UP)  &kp LG(TAB)         &kp LC(PAGE_DOWN)  &trans                            &trans        &trans            &trans        &trans             &kp LA(LC(DELETE))
-&kp SPACE  &kp LS(TAB)      &kp LEFT_ALT        &kp TAB            &kp SPACE               &trans    &trans        &kp LC(LEFT)  &kp LS(UP)    &kp LC(RIGHT)      &trans
+&kp SPACE  &kpls LG(LS(TAB)) &kp LEFT_ALT       &kpls LG(TAB)      &kp SPACE               &trans    &trans        &kp LC(LEFT)  &kp LS(UP)    &kp LC(RIGHT)      &trans
 &kp SPACE  &kp SPACE        &kp LG(DOWN_ARROW)  &kp SPACE          &kp SPACE  &trans       &trans    &kp LS(HOME)  &kp LS(LEFT)      &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)
 &kp ESC    &kpls LEFT_COMMAND &kp LGUI            &trans             &trans     &kp LSHFT    &kp BSPC  &kp LA(RET)                                                      &trans
             >;
