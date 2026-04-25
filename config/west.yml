@@ -33,6 +33,6 @@ manifest:
       revision: main
     - name: zmk-layout-shift
       remote: lunalionfish
-      revision: v1
+      revision: WinAndJIS
   self:
     path: config
