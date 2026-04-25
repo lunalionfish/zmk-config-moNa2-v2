@@ -141,9 +141,9 @@ layers:
   - {t: ▽, type: trans}
   - Alt+Ctl+DELETE
   - SPACE
-  - Sft+TAB
+  - '&kpls LG(LS(TAB))'
   - {t: LEFT ALT, type: held}
-  - TAB
+  - '&kpls LG(TAB)'
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
